@@ -47,6 +47,11 @@
   .image-text h4{
     margin-left: 25px;
   }
+  .overlay-text img{
+    background: transparent linear-gradient(180deg,rgb(13 28 52 / 0) 0,rgb(13 28 52 / 50%) 100%) 0 0 no-repeat padding-box;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 21px;
+}
 
   .image-container img{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
@@ -72,7 +77,10 @@
   }
 
   .bg-banner{
-    background-image: url('../assets/landingpage/background2.svg'); height: 90vh;
+    background-image: url('../assets/landingpage/nikmati.png');
+    background-repeat:no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 650px;
   }
 
   .width-banner{
@@ -80,7 +88,10 @@
   }
 
   .bg-travel{
-    background-image: url('../assets/landingpage/background3.svg'); height: 95vh;
+    background-image: url('../assets/landingpage/pantai.jpg');
+    background-repeat:no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 650px;
   }
 
   .p-travel{
@@ -113,7 +124,9 @@
   }
 
   .bg-header-event{
-    background-image: url('../assets/event/bg-event.svg'); height: 100vh;
+    background-image: url('../assets/event/bg-event.png');
+    background-size: 100% 100%;
+    min-height: 650px;
   }
 
   .text-event{
@@ -135,7 +148,10 @@
   }
 
   .bg-wisata{
-    background-image: url('../assets/wisata/bg-wisata.svg'); height: 100vh;
+    background-image: url('../assets/wisata/bg-wisata.png');
+    background-repeat:no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 650px;
   }
 
   .carousel-item {
@@ -196,8 +212,14 @@
   .text-hero-wisata{
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.5px black;
     font-weight: bold;
+  }
+  .text-hero-wisata1{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-text-stroke: 0.5px black;
+    font-weight: normal;
   }
 
   .custom-carousel{
@@ -227,9 +249,19 @@
   }
 
   .hero-wisata-margin-1{
-    margin-top: 104px;
+    margin-top: 150px;
   }
 
   .hero-wisata-margin-2{
-    margin-top: 55px;
+    margin-top: 35px;
   }
+
+  .tentang-margin-1{
+    margin-top: 255px;
+  }
+
+  .bg-mitra1{
+    background-image: url('../assets/wisata/bg-wisata.svg'); height: 100vh;
+  }
+
+  

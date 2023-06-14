@@ -44,7 +44,7 @@ class Navbar extends React.Component {
               <li class="nav-link text-white active" aria-current="page"><Link to="/">Beranda</Link></li>
               <li class="nav-link text-white"><Link to="/wisata">Wisata</Link></li>
               <li class="nav-link text-white"><Link to="/event">Acara</Link></li>
-              <li class="nav-link text-white">Tentang</li>
+              <li class="nav-link text-white"><Link to="/tentang">Tentang</Link></li>
             </ul>
           </div>
           <a href="#" class="btn text-white border" >Gabung Mitra</a>

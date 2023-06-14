@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import '../../styles/styles.css'; 
 import CAROUSEL1 from '../../assets/landingpage/carousel1.svg'
-import CAROUSEL2 from '../../assets/landingpage/carousel2.svg'
+import CAROUSEL2 from '../../assets/landingpage/Untitled (1).png'
 import CAROUSEL3 from '../../assets/landingpage/carousel3.svg'
 
 const Carousel = () => {

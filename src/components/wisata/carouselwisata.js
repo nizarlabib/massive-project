@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import '../../styles/styles.css';
-import BGCAROUSEL from '../../assets/wisata/bg-carousel-wisata.svg'
+import BGCAROUSEL from '../../assets/landingpage/nikmati.png'
 import CAROUSEL1 from '../../assets/wisata/carousel-wisata-1.svg'
 import CAROUSEL2 from '../../assets/wisata/carousel-wisata-2.svg'
 import CAROUSEL3 from '../../assets/wisata/carousel-wisata-3.svg'

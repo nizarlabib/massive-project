@@ -17,7 +17,6 @@ const Destinasi = () => {
         </div>
         
         <div class="row justify-content-around mb-5 mx-1">
-        
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
@@ -28,6 +27,7 @@ const Destinasi = () => {
             </a>
             </div>
             </div>
+            
         
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">

@@ -21,7 +21,9 @@ const Pantai = () => {
                     <a href="">
                         <img src={EVENTKRAKATAU} alt="Gambar"/>
                         <div class="image-text position-absolute">
-                            <h4>Lampung Krakatau Festival</h4>
+                            <h4>
+                                Lampung Krakatau Festival
+                                </h4>
                         </div>
                     </a>
                 </div>
