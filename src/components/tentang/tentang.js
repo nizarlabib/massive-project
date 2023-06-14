@@ -11,7 +11,7 @@ const tentang = () => {
               <div class="tentang-margin-1">
                 <p><h3 class="text-hero-wisata">VACALAM</h3></p>
               </div>
-              <div class="tentang-margin-1">
+              <div class="tentang-margin-2">
                 <h1 class="text-hero-wisata">Vacation Lampung</h1>
               </div>
           </div>
