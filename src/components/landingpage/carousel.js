@@ -15,7 +15,7 @@ const Carousel = () => {
             <img src={CAROUSEL1} alt="Image 1"/>
             <div class="carousel-caption caption1">
             <h1 class="font-weight-bold text-white font-weight-bold">Gaya Baru Berwisata di Lampung</h1>
-            <p>"Lampung TOURISM APP" Trobosan Inovatif buat panduan kamu  menikmati indahnya destinasi pariwisata Lampung, dengan fasilitas booking langsung dalam aplikasi</p>
+            <p>"VACALAM Apps” Trobosan Inovatif buat panduan kamu  menikmati indahnya destinasi pariwisata Lampung, dengan fasilitas booking langsung dalam aplikasi</p>
             <button type="button" class="btn btn-primary text-white mt-4">Download Sekarang</button>
             </div>
         </div>
