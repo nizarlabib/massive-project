@@ -21,7 +21,6 @@ const Carouselwisata = () => {
                     <div class="carousel-div-img">
                         <img class="rounded-5 shadow" src={CAROUSEL1} alt="pantai"/>
                     </div>
-
                     <div class="text-center d-flex justify-content-center align-items-center carousel-div-text">
                         <div>
                             <h1 class="text-white">Pantai</h1>
@@ -40,7 +39,6 @@ const Carouselwisata = () => {
                     <div class="carousel-div-img">
                         <img class="rounded-5 shadow" src={CAROUSEL2} alt="gunung"/>
                     </div>
-
                     <div class="text-center d-flex justify-content-center align-items-center carousel-div text">
                         <div>
                             <h1 class="text-white">Gunung</h1>
