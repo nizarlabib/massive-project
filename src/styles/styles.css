@@ -153,6 +153,19 @@
     background-size: 100% 100%;
     min-height: 650px;
   }
+  .bg-mitra{
+    background-image: url('../assets/gunung.jpg');
+    background-repeat:no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 600px;
+  }
+  .bg-mitra2{
+    background-image: url('../assets/batikkecil.jpeg');
+    background-repeat:no-repeat scroll;
+    background-size: 50% 100%;
+    min-height: 100px;
+  }
+  
 
   .carousel-item {
     position: relative;
@@ -263,8 +276,12 @@
     margin-top: 35px;
   }
 
-  .bg-mitra1{
-    background-image: url('../assets/wisata/bg-wisata.svg'); height: 100vh;
+  .mitra-margin-1{
+    margin-top: 150px;
+  }
+  .mitra-margin-2{
+    margin-top: 35px;
   }
 
+  
   

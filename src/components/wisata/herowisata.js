@@ -12,7 +12,7 @@ const Herowisata = () => {
               <h2 class="text-hero-wisata">VACALAM</h2>
             </div>
             <div class="hero-wisata-margin-2">
-              <h1 class="text-hero-wisata1">Nikmati Wisata Impianmu</h1>
+              <h1 class="text-hero-wisata">Nikmati Wisata Impianmu</h1>
             </div>
         </div>
       </div>
