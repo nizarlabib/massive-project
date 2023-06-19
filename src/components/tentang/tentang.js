@@ -5,18 +5,15 @@ import '../../styles/styles.css';
 
 const tentang = () => {
     return (
-      <div>
-        <div class="bg-image w-100 d-flex justify-content-center bg-wisata">
+      <section>
+        <div class="bg-image w-100 d-flex align-items-center justify-content-center bg-tentang">
           <div class="position-absolute text-center">
               <div class="tentang-margin-1">
-                <p><h3 class="text-hero-wisata">VACALAM</h3></p>
-              </div>
-              <div class="tentang-margin-2">
-                <h1 class="text-hero-wisata">Vacation Lampung</h1>
+                <p><h1 class="text-hero-wisata">LAMPUNG Tourism</h1></p>
               </div>
           </div>
         </div>
-    </div>
+  </section>
     )
   }
   

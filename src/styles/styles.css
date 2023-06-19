@@ -271,17 +271,25 @@
 
   .tentang-margin-1{
     margin-top: 150px;
+    /* font-size: 60px; */
   }
 
-  .tentang-margin-2{
-    margin-top: 35px;
+  .bg-tentang{
+    background-image: url('../assets/tentang/background.jpg');
+    background-repeat:no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 650px;
   }
-
   .mitra-margin-1{
     margin-top: 150px;
   }
   .mitra-margin-2{
     margin-top: 35px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
   }
 
   
