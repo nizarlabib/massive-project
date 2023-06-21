@@ -417,16 +417,68 @@
 }
 
 .carousel-tentang img {
-  object-fit: cover;
-  background-size: cover;
-  height: 50%;
-  width: 50%;
-  border-radius: 7px;
-  text-align: right;
-  position: absolute; top: 0px; left: 0px; z-index: 1; display: flex;
-}
+  width: 80%;
+  /* margin: 3.5rem 0; */
+  height: 80%;
+  margin: 5.5rem 8rem;
  
+}
 
+.two-dev-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
 
-  
+.dev-text{
+  width: 45%;
+   text-align: center;
+   font-size: 1.1rem; 
+   flex-direction: row-reverse;
+}
+
+.dev-text h1{
+  font-size: 20px;
+  color: white;
+}
+
+.dev-text p{
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  margin-right: 10rem 8rem;
+  margin: 10px;
+  border-radius: 21px;
+}
+
+form{
+  display: block;
+  background-color: white;
+  box-shadow: 1px 1px 3px 2px #dddd;
+  margin: 40px auto;
+  max-height: 600px;
+  max-height: 700px;
+  padding: 20px;
+  font-family: "Poppins";
+  text-align: center;
+
+}
+
+form input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10px auto;
+  padding: 8px;
+  font-family: "Poppins";
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+}
+
+form span{
+  color: rgb(29, 185, 237);
+  text-align: center;
+}
   

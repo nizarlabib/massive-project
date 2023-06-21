@@ -5,6 +5,7 @@ import Navbar from '../components/navbar'
 import Herotentang from '../components/tentang/herotentang'
 import TripData from '../components/tentang/TripData'
 import BannerTentang from '../components/tentang/bannerTentang'
+import ContactSection from '../components/tentang/ContactSection'
 
 const TentangPage= ()  => {
   return (
@@ -14,6 +15,7 @@ const TentangPage= ()  => {
         <Herotentang/>
         <TripData/>
         <BannerTentang/>
+        <ContactSection/>
         <Footer/>
     </div>
   )
