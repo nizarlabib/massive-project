@@ -165,7 +165,7 @@
     background-size: 50% 100%;
     min-height: 100px;
   }
-  
+
 
   .carousel-item {
     position: relative;
@@ -286,6 +286,7 @@
   .mitra-margin-2{
     margin-top: 35px;
   }
+
   h3{
     font-size: 20px;
     line-height: 100px;
@@ -482,3 +483,35 @@ form span{
   text-align: center;
 }
   
+.bg-header-pantai{
+  background-image: url('../assets/kapal2.jpg');
+  background-repeat:no-repeat scroll;
+  background-size: 100% 100%;
+  min-height: 600px;
+}
+
+.bg-header-gunung{
+  background-image: url('../assets/gunung.jpg');
+  background-repeat:no-repeat scroll;
+  background-size: 100% 100%;
+  min-height: 600px;
+
+}
+
+.bg-header-kuliner{
+  background-image: url('../assets/kuliner.jpg');
+  background-repeat:no-repeat scroll;
+  background-size: 100% 100%;
+  min-height: 600px;
+}
+
+.bg-header-sejarah{
+  background-image: url('../assets/sejarah.jpg');
+  background-repeat:no-repeat scroll;
+  background-size: 100% 100%;
+  min-height: 600px;
+}
+
+.header-h1{
+ text-align: right;
+}

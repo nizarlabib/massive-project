@@ -7,6 +7,7 @@ import CAROUSEL1 from '../../assets/wisata/carousel-wisata-1.svg'
 import CAROUSEL2 from '../../assets/wisata/carousel-wisata-2.svg'
 import CAROUSEL3 from '../../assets/wisata/carousel-wisata-3.svg'
 import CAROUSEL4 from '../../assets/wisata/carousel-wisata-4.svg'
+import { Link } from 'react-router-dom';
 
 
 const Carouselwisata = () => {
@@ -27,7 +28,7 @@ const Carouselwisata = () => {
                             <div class="d-flex justify-content-center">
                                 <h2 class="text-white mt-5 w-75">Kota Lampung merupakan tempat destinasi yang indah, ada banyak sekali pantai pantai yang memiliki pesona keindahan yang memukau</h2>
                             </div>
-                            <button type="button" class="btn btn-primary mt-5">Explore Sekarang</button>
+                            <li class="btn btn-primary mt-5"><Link to= "/pantai">Explore Sekarang</Link></li>
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ const Carouselwisata = () => {
                             <div class="d-flex justify-content-center">
                                 <h2 class="text-white mt-5 w-75">Lampung menawarkan berbagai destinasi pariwisata yang indah dan menarik berhubungan dengan gunung dan bukit.</h2>
                             </div>
-                            <button type="button" class="btn btn-primary mt-5">Explore Sekarang</button>
+                            <li class="btn btn-primary mt-5"><Link to= "/gunung">Explore Sekarang</Link></li>
                         </div>
                     </div>
                 </div>
@@ -64,7 +65,7 @@ const Carouselwisata = () => {
                             <div class="d-flex justify-content-center">
                                 <h2 class="text-white mt-5 w-75">Lampung memiliki kekayaan kuliner yang unik dan beragam. Makanan khas Lampung menawarkan cita rasa yang khas, dipengaruhi oleh budaya, tradisi, serta bahan-bahan lokal yang melimpah.</h2>
                             </div>
-                            <button type="button" class="btn btn-primary mt-5">Explore Sekarang</button>
+                            <li class="btn btn-primary mt-5"><Link to= "/kuliner">Explore Sekarang</Link></li>
                         </div>
                     </div>
                 </div>
@@ -83,7 +84,7 @@ const Carouselwisata = () => {
                             <div class="d-flex justify-content-center">
                                 <h2 class="text-white mt-5 w-75">Lampung memiliki sejarah yang kaya dengan berbagai situs bersejarah yang menarik untuk dikunjungi.</h2>
                             </div>
-                            <button type="button" class="btn btn-primary mt-5">Explore Sekarang</button>
+                            <li class="btn btn-primary mt-5"><Link to= "/sejarah">Explore Sekarang</Link></li>
                         </div>
                     </div>
                 </div>
