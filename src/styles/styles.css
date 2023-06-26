@@ -517,3 +517,12 @@ form span{
 .header-h1{
  text-align: right;
 }
+
+.nav-item-active{
+    background-color: white;
+    color: #157D92;
+    border-radius: 8px;
+    max-height: 39px;
+    
+  }
+
