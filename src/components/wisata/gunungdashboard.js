@@ -1,11 +1,11 @@
 import React from 'react'
 import '../../styles/styles.css'; 
-import GigiHiu from '../../assets/pantai/pantai-gigi-hiu.svg'
-import Kiara from '../../assets/pantai/pantai-klara.svg'
-import SariRinggung from '../../assets/pantai/pantai-sari.svg'
-import TegalMas from '../../assets/pantai/pantai-tegalmas.svg'
-import PasirPutih from '../../assets/pantai/pantai-pasir-putih.svg'
-import TelukKilauan from '../../assets/pantai/pantai-teluk.svg'
+import BukitAslan from '../../assets/gunung/BukitAslan.svg'
+import BukitIdaman from '../../assets/gunung/BukitIdaman.svg'
+import BukitKabut from '../../assets/gunung/BukitKabut.svg'
+import BukitPangonan from '../../assets/gunung/BukitPangonan.svg'
+import BukitSakura from '../../assets/gunung/BukitSakura.svg'
+import BukitSelalau from '../../assets/gunung/BukitSelalau.svg'
 
 const dashboardgunung = () => {
   return (
@@ -15,10 +15,10 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
                 <div class="image-container position-relative">
                     <a href="">
-                        <img src={GigiHiu} alt="Gambar"/>
+                        <img src={BukitAslan} alt="Gambar"/>
                         <div class="image-text position-absolute">
                             <h4>
-                                Pantai Gigi Hiu
+                                Bukit Aslan
                                 </h4>
                         </div>
                     </a>
@@ -28,9 +28,9 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={Kiara} alt="Gambar"/>
+                <img src={BukitIdaman} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Kiara</h4>
+                <h4>Bukit Idaman</h4>
                 </div>
             </a>
             </div>
@@ -39,9 +39,9 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={SariRinggung} alt="Gambar"/>
+                <img src={BukitKabut} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Sari Ringgung</h4>
+                <h4>Bukit Kabut</h4>
                 </div>
             </a>
             </div>
@@ -50,9 +50,9 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TegalMas} alt="Gambar"/>
+                <img src={BukitPangonan} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Tegal Mas</h4>
+                <h4>Bukit Pangonan</h4>
                 </div>
             </a>
             </div>
@@ -61,9 +61,9 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={PasirPutih} alt="Gambar"/>
+                <img src={BukitSakura} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Pasir Putih</h4>
+                <h4>Bukit Sakura</h4>
                 </div>
             </a>
             </div>
@@ -72,9 +72,9 @@ const dashboardgunung = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TelukKilauan} alt="Gambar"/>
+                <img src={BukitSelalau} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Teluk Kilauan</h4>
+                <h4>Bukit Selalau</h4>
                 </div>
             </a>
             </div>

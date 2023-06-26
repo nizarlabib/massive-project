@@ -1,11 +1,14 @@
 import React from 'react'
 import '../../styles/styles.css'; 
-import GigiHiu from '../../assets/pantai/pantai-gigi-hiu.svg'
-import Kiara from '../../assets/pantai/pantai-klara.svg'
-import SariRinggung from '../../assets/pantai/pantai-sari.svg'
-import TegalMas from '../../assets/pantai/pantai-tegalmas.svg'
-import PasirPutih from '../../assets/pantai/pantai-pasir-putih.svg'
-import TelukKilauan from '../../assets/pantai/pantai-teluk.svg'
+import BatuBedil from '../../assets/sejarah/BatuBedil.svg'
+import BuayPernong from '../../assets/sejarah/BuayPernong.svg'
+import GedungAir from '../../assets/sejarah/GedungAir.svg'
+import GoaWarak from '../../assets/sejarah/GoaWarak.svg'
+import MasjidJami from '../../assets/sejarah/MasjidJami.svg'
+import Museum from '../../assets/sejarah/Museum.svg'
+import RumahDaswati from '../../assets/sejarah/RumahDaswati.svg'
+import Taman from '../../assets/sejarah/Taman.svg'
+import Vihara from '../../assets/sejarah/Vihara.svg'
 
 const dashboardsejarah = () => {
   return (
@@ -15,10 +18,10 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
                 <div class="image-container position-relative">
                     <a href="">
-                        <img src={GigiHiu} alt="Gambar"/>
+                        <img src={BatuBedil} alt="Gambar"/>
                         <div class="image-text position-absolute">
                             <h4>
-                                Pantai Gigi Hiu
+                                Situs Batu Bedil
                                 </h4>
                         </div>
                     </a>
@@ -28,9 +31,9 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={Kiara} alt="Gambar"/>
+                <img src={RumahDaswati} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Kiara</h4>
+                <h4>Rumah Daswati</h4>
                 </div>
             </a>
             </div>
@@ -39,9 +42,9 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={SariRinggung} alt="Gambar"/>
+                <img src={BuayPernong} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Sari Ringgung</h4>
+                <h4>Buay Pernong</h4>
                 </div>
             </a>
             </div>
@@ -50,9 +53,9 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TegalMas} alt="Gambar"/>
+                <img src={MasjidJami} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Tegal Mas</h4>
+                <h4>Masjid Jami' Al-Anwar</h4>
                 </div>
             </a>
             </div>
@@ -61,9 +64,9 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={PasirPutih} alt="Gambar"/>
+                <img src={Taman} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Pasir Putih</h4>
+                <h4>Taman Purbakala Pujung Raharjo</h4>
                 </div>
             </a>
             </div>
@@ -72,14 +75,47 @@ const dashboardsejarah = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TelukKilauan} alt="Gambar"/>
+                <img src={Museum} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Teluk Kilauan</h4>
+                <h4>Museum Lampung</h4>
                 </div>
             </a>
             </div>
             </div>
         
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={GoaWarak} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>Goa Warak</h4>
+                </div>
+            </a>
+            </div>
+            </div>
+
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={GedungAir} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>Gedung Air</h4>
+                </div>
+            </a>
+            </div>
+            </div>
+
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={Vihara} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>Vihara Tay Hin Bio</h4>
+                </div>
+            </a>
+            </div>
+            </div>
+
         </div>
     </section>
   )

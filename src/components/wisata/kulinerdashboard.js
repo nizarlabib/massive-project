@@ -1,11 +1,14 @@
 import React from 'react'
 import '../../styles/styles.css'; 
-import GigiHiu from '../../assets/pantai/pantai-gigi-hiu.svg'
-import Kiara from '../../assets/pantai/pantai-klara.svg'
-import SariRinggung from '../../assets/pantai/pantai-sari.svg'
-import TegalMas from '../../assets/pantai/pantai-tegalmas.svg'
-import PasirPutih from '../../assets/pantai/pantai-pasir-putih.svg'
-import TelukKilauan from '../../assets/pantai/pantai-teluk.svg'
+import BenjakEnjak from '../../assets/kuliner/BenjakEnjak.svg'
+import Durian from '../../assets/kuliner/Durian.svg'
+import Emping from '../../assets/kuliner/Emping.svg'
+import GulaiTaboh from '../../assets/kuliner/GulaiTaboh.svg'
+import KripikPisang from '../../assets/kuliner/KripikPisang.svg'
+import Pisro from '../../assets/kuliner/Pisro.svg'
+import SerbatKweni from '../../assets/kuliner/SerbatKweni.svg'
+import Seruit from '../../assets/kuliner/Seruit.svg'
+import Tempoyak from '../../assets/kuliner/Tempoyak.svg'
 
 const dashboardkuliner = () => {
   return (
@@ -15,10 +18,10 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
                 <div class="image-container position-relative">
                     <a href="">
-                        <img src={GigiHiu} alt="Gambar"/>
+                        <img src={BenjakEnjak} alt="Gambar"/>
                         <div class="image-text position-absolute">
                             <h4>
-                                Pantai Gigi Hiu
+                                Benjak Enjak
                                 </h4>
                         </div>
                     </a>
@@ -28,9 +31,9 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={Kiara} alt="Gambar"/>
+                <img src={GulaiTaboh} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Kiara</h4>
+                <h4>Gulai Taboh</h4>
                 </div>
             </a>
             </div>
@@ -39,9 +42,9 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={SariRinggung} alt="Gambar"/>
+                <img src={Durian} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Sari Ringgung</h4>
+                <h4>Durian Kopi Luwak</h4>
                 </div>
             </a>
             </div>
@@ -50,9 +53,9 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TegalMas} alt="Gambar"/>
+                <img src={Emping} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Tegal Mas</h4>
+                <h4>Emping</h4>
                 </div>
             </a>
             </div>
@@ -61,9 +64,9 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={PasirPutih} alt="Gambar"/>
+                <img src={KripikPisang} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Pasir Putih</h4>
+                <h4>Kripik Pisang</h4>
                 </div>
             </a>
             </div>
@@ -72,14 +75,46 @@ const dashboardkuliner = () => {
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
                 <a href="">
-                <img src={TelukKilauan} alt="Gambar"/>
+                <img src={Pisro} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Teluk Kilauan</h4>
+                <h4>Pisro</h4>
                 </div>
             </a>
             </div>
             </div>
         
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={SerbatKweni} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>SerbatKweni</h4>
+                </div>
+            </a>
+            </div>
+            </div>
+
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={Seruit} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>Seruit</h4>
+                </div>
+            </a>
+            </div>
+            </div>
+
+            <div class="col-xl-auto col-md-6 mb-4">
+            <div class="image-container position-relative">
+                <a href="">
+                <img src={Tempoyak} alt="Gambar"/>
+                <div class="image-text position-absolute">
+                <h4>Tempoyak</h4>
+                </div>
+            </a>
+            </div>
+            </div>
         </div>
     </section>
   )

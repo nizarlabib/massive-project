@@ -499,10 +499,12 @@ form span{
 }
 
 .bg-header-kuliner{
-  background-image: url('../assets/kuliner.jpg');
+  background-image: url('../assets/kuliner\ 4.jpg');
+  opacity: 0.9;
   background-repeat:no-repeat scroll;
   background-size: 100% 100%;
   min-height: 600px;
+  
 }
 
 .bg-header-sejarah{

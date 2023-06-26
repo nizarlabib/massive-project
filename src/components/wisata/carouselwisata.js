@@ -42,7 +42,7 @@ const Carouselwisata = () => {
                     </div>
                     <div class="text-center d-flex justify-content-center align-items-center carousel-div text">
                         <div>
-                            <h1 class="text-white">Gunung</h1>
+                            <h1 class="text-white">Pegunungan dan Perbukitan</h1>
                             <div class="d-flex justify-content-center">
                                 <h2 class="text-white mt-5 w-75">Lampung menawarkan berbagai destinasi pariwisata yang indah dan menarik berhubungan dengan gunung dan bukit.</h2>
                             </div>

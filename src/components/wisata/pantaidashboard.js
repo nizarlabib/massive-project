@@ -30,7 +30,7 @@ const dashboard = () => {
                 <a href="">
                 <img src={Kiara} alt="Gambar"/>
                 <div class="image-text position-absolute">
-                <h4>Pantai Kiara</h4>
+                <h4>Pantai Klara</h4>
                 </div>
             </a>
             </div>
