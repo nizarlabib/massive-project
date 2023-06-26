@@ -39,16 +39,25 @@ class Navbar extends React.Component {
       <nav class="navbar navbar-expand-lg sticky-top fixed-top bg-navbar">
           <div class="container-fluid mx-4">
               <Link to="/"><img src={LOGO} alt=""/></Link>
-          <div class="collapse navbar-collapse d-flex justify-content-around collapse-navbar" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-              <li class="nav-link text-white active" aria-current="page"><Link to="/">Beranda</Link></li>
-              <li class="nav-link text-white"><Link to="/wisata">Wisata</Link></li>
-              <li class="nav-link text-white"><Link to="/event">Acara</Link></li>
-              <li class="nav-link text-white"><Link to="/tentang">Tentang</Link></li>
+          <div className="collapse navbar-collapse d-flex justify-content-around collapse-navbar" id="navbarNavAltMarkup">
+            <ul className="navbar-nav gap-3">
+              <li className={`nav-link ${location.pathname === '/' ? 'nav-item-active' : 'text-white'}`} aria-current="page">
+                <Link to="/">Beranda</Link>
+              </li>
+              <li className={`nav-link ${location.pathname === '/wisata' ? 'nav-item-active' : 'text-white'}`}>
+                <Link to="/wisata">Wisata</Link>
+              </li>
+              <li className={`nav-link ${location.pathname === '/event' ? 'nav-item-active' : 'text-white'}`}>
+                <Link to="/event">Acara</Link>
+              </li>
+              <li className={`nav-link ${location.pathname === '/tentang' ? 'nav-item-active' : 'text-white'}`}>
+                <Link to="/tentang">Tentang</Link>
+              </li>
             </ul>
           </div>
-          <li class="btn text-white border" ><Link to="/mitra">Gabung Mitra</Link></li>
-          </div>
+          <a href="#" className={`btn border ${location.pathname === '/tentang' ? 'nav-item-active' : 'text-white'}`}>
+          <Link to="/">Gabung Mitra</Link>
+          </a>
       </nav>
     </div>
     );
