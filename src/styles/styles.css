@@ -88,7 +88,7 @@
   }
 
   .bg-travel{
-    background-image: url('../assets/landingpage/pantai.jpg');
+    background-image: url('../assets/tentang1.jpg');
     background-repeat:no-repeat scroll;
     background-size: 100% 100%;
     min-height: 650px;
@@ -275,7 +275,7 @@
   }
 
   .bg-tentang{
-    background-image: url('../assets/tentang/background.jpg');
+    background-image: url('../assets/lampung.jpg');
     background-repeat:no-repeat scroll;
     background-size: 100% 100%;
     min-height: 650px;
@@ -519,10 +519,10 @@ form span{
 }
 
 .nav-item-active{
-    background-color: white;
-    color: #157D92;
-    border-radius: 8px;
-    max-height: 39px;
-    
-  }
+  background-color: white;
+  color: #157D92;
+  border-radius: 8px;
+  max-height: 39px;
+  
+}
 
