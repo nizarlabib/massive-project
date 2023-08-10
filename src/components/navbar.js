@@ -46,7 +46,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="#" className={`btn border ${location.pathname === '/tentang' ? 'nav-item-active' : 'text-white'}`}>
-          <Link to="/">Gabung Mitra</Link>
+          <Link to="/mitra">Gabung Mitra</Link>
           </a>
         </div>
       </nav>

@@ -79,6 +79,9 @@
   .bg-banner{
     background-image: url('../assets/landingpage/nikmati.png');
     background-repeat:no-repeat scroll;
+    background-size: cover;
+    object-fit: cover;
+    background-size: cover;
     background-size: 100% 100%;
     min-height: 650px;
   }
@@ -526,3 +529,7 @@ form span{
   
 }
 
+.image-acara-size{
+  width: 1206px;
+  height: 596px;
+}

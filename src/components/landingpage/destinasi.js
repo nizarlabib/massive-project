@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import '../../styles/styles.css'; 
@@ -19,11 +20,12 @@ const Destinasi = () => {
         <div class="row justify-content-around mb-5 mx-1">
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
-                <a href="">
+                <a href=""><Link to="/pantaitegal">
                 <img src={TEGALMAS} alt="Gambar"/>
                 <div class="image-text position-absolute">
                 <h4>Tegal Mas</h4>
                 </div>
+                </Link>
             </a>
             </div>
             </div>

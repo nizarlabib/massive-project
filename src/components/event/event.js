@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import '../../styles/styles.css'; 
 import EVENTKRAKATAU from '../../assets/event/event-krakatau.svg'
 import EVENTTELUK from '../../assets/event/event-teluk.svg'
@@ -18,24 +19,26 @@ const Pantai = () => {
         
             <div class="col-xl-auto col-md-6 mb-4">
                 <div class="image-container position-relative">
-                    <a href="">
+                    <a><Link to="/acara1">
                         <img src={EVENTKRAKATAU} alt="Gambar"/>
                         <div class="image-text position-absolute">
                             <h4>
                                 Lampung Krakatau Festival
                                 </h4>
                         </div>
+                        </Link>
                     </a>
                 </div>
             </div>
         
             <div class="col-xl-auto col-md-6 mb-4">
             <div class="image-container position-relative">
-                <a href="">
+                <a><Link to="/acara2">
                 <img src={EVENTTELUK} alt="Gambar"/>
                 <div class="image-text position-absolute">
                 <h4>Festival Teluk Stabas</h4>
                 </div>
+                </Link>
             </a>
             </div>
             </div>
